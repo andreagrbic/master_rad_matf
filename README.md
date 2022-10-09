@@ -1,5 +1,5 @@
 # Vrednovanje azijskih opcija
-Ovdje se nalaze svi kodovi implemetirani za potrebe master rada i primjeri. 
+Ovdje se nalaze svi iskomentarisani kodovi implemetirani za potrebe master rada i primjeri. 
 
 
 # Opis fajlova i funkcija u njima
