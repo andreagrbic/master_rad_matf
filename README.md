@@ -8,7 +8,7 @@ Za pokretanje kodova od dodatnih biblioteka je potrebna samo biblioteka *MASS* i
 3. U fajlu AV_GBM.R se nalazi vektorizovana funkcija kojom se generišu trajektorije geometrijskog Braunovog kretanja koristeći antitetičko uzorkovanje. 
 Na kraju je dat primjer generisanja putanja ovom metodom.
 4. U fajlu AV_GBM_MC.R se nalazi funkcija za određivanje Monte-Karlo ocjene cijene aritmetičke azijske akcije koja koristi metod antitetičkog uzorkovanja za redukciju disperzije. 
-5. U fajlu CV_GBM_MC.R je implementirana metoda kontrolnih promjenljivih za redukciju disperzije Monte-Karlo ocjene. Funkcija je prilagođena trima kontrolnim promjenljivim:
+5. U fajlu CV_GBM_MC.R je implementirana metoda kontrolnih promjenljivih za redukciju disperzije Monte-Karlo ocjene. Funkcija je prilagođena za tri kontrolne promjenljive:
     * aritmetička sredina cijena akcija;
     * evropska kol opcija čija je cijena eksplicitno data Blek-Šolsovom formulom;
     * geometrijska azijska opcija za čiju cijenu postoji eksplicitna formula.
