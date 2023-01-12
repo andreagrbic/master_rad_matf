@@ -9,6 +9,6 @@ Za pokretanje kodova od dodatnih biblioteka je potrebna samo biblioteka *MASS* i
 Na kraju je dat primjer generisanja putanja ovom metodom.
 4. U fajlu AV_GBM_MC.R se nalazi funkcija za određivanje Monte-Karlo ocjene cijene aritmetičke azijske akcije koja koristi metod antitetičkog uzorkovanja za redukciju disperzije. 
 5. U fajlu CV_GBM_MC.R je implementirana metoda kontrolnih promjenljivih za redukciju disperzije Monte-Karlo ocjene. Funkcija je prilagođena trima kontrolnim promjenljivim, i to:
-a) Aritmetička sredina cijena akcija
-b) Evropska kol opcija čija je cijena eksplicitno data Blek-Šolsovom formulom
-c) Geometrijska azijska opcija za čiju cijenu postoji eksplicitna formula
+* Aritmetička sredina cijena akcija
+* Evropska kol opcija čija je cijena eksplicitno data Blek-Šolsovom formulom
+* Geometrijska azijska opcija za čiju cijenu postoji eksplicitna formula
