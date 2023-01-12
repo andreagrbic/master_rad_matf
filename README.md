@@ -12,6 +12,6 @@ Na kraju je dat primjer generisanja putanja ovom metodom.
     * aritmetička sredina cijena akcija;
     * evropska kol opcija čija je cijena eksplicitno data Blek-Šolsovom formulom;
     * geometrijska azijska opcija za čiju cijenu postoji eksplicitna formula.
-6. U fajlu CV_GBM_MC.R se nalazi funkcija kojom je implementirana kombinovana metoda kontrolnih promjenljivih. Kombinuju se tri prethodno navedene kontrolne promjenljive.
+6. U fajlu CV_multiple_GBM_MC.R se nalazi funkcija kojom je implementirana kombinovana metoda kontrolnih promjenljivih. Kombinuju se tri prethodno navedene kontrolne promjenljive.
 7. Fajl kov_poredjenje.R služi za poređenje kovarijacija niza ocjena dobijenog ,,naivnom'' Monte-Karlo metodom i nizaova dobijenih na osnovu svake od kontrolnih promjenljivih ponaosob. Uloga posmatranja te kovarijacije jeste određivanje najefikasnije kontrolne promjenljive za redukciju disperzije i smanjenje greške Monte-Karlo ocjene.
 8. Fajl vorst_aproksimacija.R sadrži funkcije za računanje Vorstove aproksimacije za cijenu aritmetičke azijske opcije, kao i funkcije za određivanje gornje i donje granice te cijene. 
