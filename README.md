@@ -9,9 +9,9 @@ Za pokretanje kodova od dodatnih biblioteka je potrebna samo biblioteka *MASS* i
 Na kraju je dat primjer generisanja putanja ovom metodom.
 4. U fajlu AV_GBM_MC.R se nalazi funkcija za određivanje Monte-Karlo ocjene cijene aritmetičke azijske akcije koja koristi metod antitetičkog uzorkovanja za redukciju disperzije. 
 5. U fajlu CV_GBM_MC.R je implementirana metoda kontrolnih promjenljivih za redukciju disperzije Monte-Karlo ocjene. Funkcija je prilagođena trima kontrolnim promjenljivim:
-    * Aritmetička sredina cijena akcija
-    * Evropska kol opcija čija je cijena eksplicitno data Blek-Šolsovom formulom
-    * Geometrijska azijska opcija za čiju cijenu postoji eksplicitna formula
-6. U fajlu CV_GBM_MC.R se nalazi funkcija kojom je implementirana kombinovana metoda kontrolnih promjenljivih. Koriste se tri prethodno navedene kontrolne promjenljive.
-7. Fajl kov_poredjenje.R služi za poređenje kovarijacija niza ocjena dobijenog ,,naivnom'' Monte-Karlo metodom i niza dobijenog metodom kontrolnih promjenljivih. Uloga posmatranja te kovarijacije jeste određivanje najefikasnije kontrolne promjenljive za redukciju disperzije i smanjenje greške Monte-Karlo ocjene.
+    * aritmetička sredina cijena akcija;
+    * evropska kol opcija čija je cijena eksplicitno data Blek-Šolsovom formulom;
+    * geometrijska azijska opcija za čiju cijenu postoji eksplicitna formula.
+6. U fajlu CV_GBM_MC.R se nalazi funkcija kojom je implementirana kombinovana metoda kontrolnih promjenljivih. Kombinuju se tri prethodno navedene kontrolne promjenljive.
+7. Fajl kov_poredjenje.R služi za poređenje kovarijacija niza ocjena dobijenog ,,naivnom'' Monte-Karlo metodom i nizaova dobijenih na osnovu svake od kontrolnih promjenljivih ponaosob. Uloga posmatranja te kovarijacije jeste određivanje najefikasnije kontrolne promjenljive za redukciju disperzije i smanjenje greške Monte-Karlo ocjene.
 8. Fajl vorst_aproksimacija.R sadrži funkcije za računanje Vorstove aproksimacije za cijenu aritmetičke azijske opcije, kao i funkcije za određivanje gornje i donje granice te cijene. 
