@@ -1,4 +1,4 @@
-# Vrednovanje azijskih opcija
+# Vrednovanje azijskih opcija :chart_with_downwards_trend: 
 Ovdje se nalaze svi iskomentarisani kodovi implemetirani za potrebe master rada i primjeri. 
 Za pokretanje kodova od dodatnih biblioteka je potrebna samo biblioteka *MASS* i njena funkcija *rlm* za primjenu robusne linearne regresije. Sve ostalo je ručno implementirano.
 
